@@ -102,3 +102,12 @@ PyCrypto website:
     http://www.pycrypto.org/
     https://www.dlitz.net/software/pycrypto/
 
+
+Build by hex-in (Python3.6)
+=============================
+Windows command line:
+set CL=/FI "%VCINSTALLDIR%\INCLUDE\stdint.h"
+USER PATH:
+Variable name  : VCINSTALLDIR
+Variable value : C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC
+
