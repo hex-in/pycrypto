@@ -24,7 +24,7 @@ jobs:
         pip install wheel
     - name: Compile source code
       run: |
-        python setup.py bdist_wheel
-    - name: Test with pytest
+        python setup.py build
+    - name: Install pycrypto
       run: |
-        pip install pycrypto
+        python setup.py install
